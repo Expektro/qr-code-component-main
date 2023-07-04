@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; background-color:rgb(80, 114, 235) ; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    .container{
+      width: 100vw;
+      height: 100vh;
+      background-color: rgb(80, 114, 235);
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center; 
+    }
+    .box{
+      width: 350px;
+      height: 500px;
+      background-color: rgb(255, 255, 255);
+      border-radius: 10px;
+    }
+    body{
+      margin: 0;
+    }
+    img{
+      margin: 15px;
+      /*background-color: blue;*/
+      width: 320px;
+      height: 300px;
+      border-radius: 5px;
+     
+    }
+    p , h2 {
+      margin: 10px;
+      align-items: center;
+      font-family: sans-serif;
+    }
+  /*
+    @media(min-width: 375px){
+      .box {
+        width: 250px;
+        height: 420px;
+      }
+      img{
+        margin: 7.5px;
+        width: 235px;
+        height: 220px;
+      }
+    }*/
+  
+  </style>
+</head>
+<body>
+  
+  <div class="container">
+  <div class="box"><img src="images\image-qr-code.png" alt="">
+    <div class="p">
+      <h2>
+        Aponte a câmera do seu celular para o qr-Code
+      </h2>
+      <p>Aproveite todas as oportunidades</p>
+    </div>
+  </div>
+  </div>
+ 
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+</html>
